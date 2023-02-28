@@ -1,0 +1,27 @@
+{
+  "name": "svgjs-experiments",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@svgdotjs/svg.filter.js": "^3.0.8",
+    "@svgdotjs/svg.js": "^3.1.2",
+    "color": "^4.2.3",
+    "color-convert": "^2.0.1",
+    "seedrandom": "^3.0.5",
+    "svg.path.js": "git+https://github.com/otm/svg.path.js.git"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "debug": "^4.3.4",
+    "parcel": "^2.8.3",
+    "sass": "^1.58.2"
+  }
+}
